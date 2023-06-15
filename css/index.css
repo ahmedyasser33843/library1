@@ -229,12 +229,5 @@ flex-direction: row;
     left: 35%;
     top: 17%;
 }
-.games{
-        animation-name: ani-m;
-            animation-duration: 1s;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-            animation-timing-function: ease-out;
-}
 /* end content */
 
