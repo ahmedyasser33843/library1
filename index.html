@@ -3,133 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!--  normalize css -->
-    <link rel="stylesheet" href="/css/norma.css" />
-    <link rel="stylesheet" href="/css/all.min.css" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,7
+00;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
     <title>مكتبة الأصدقاء</title>
+    <link rel="icon" href="./img/OIP_2.jpg" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h1>مكتبة الأصدقاء</h1>
-        <nav>
-          <i class="fas fa-bars"></i>
-          <ul>
-            <li>
-              <a href="#product">المنتجات</a>
-            </li>
-            <li><a href="#contact">التواصل</a></li>
-          </ul>
-        </nav>
+    <div class="page">
+      <div class="sidebar">
+        <h2>مكتبة الأصدقاء</h2>
+        <ul>
+          <li>
+            <a href="index.html" target="_blank">
+              <i class="fa-solid fa-house"></i>
+              <span>الصفحه الرئيسيه</span>
+            </a>
+          </li>
+          <li>
+            <a href="#prod">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>المنتجات</span>
+            </a>
+          </li>
+          <li>
+            <a href="#cont">
+              <i class="fa-solid fa-square-phone-flip"></i>
+              <span>التواصل</span>
+            </a>
+          </li>
+        </ul>
       </div>
-    </header>
-    <div class="content">
-      <section class="name">
-        <h1>مكتبة الأصدقاء<br />ترحب بكم</h1>
-        <p>
-          مكتبة الاصدقاء تقدم لكم العديد من الخدمات منها الالعاب والطباعه سواء
-          من الهاتف او ورقي والكتب الخارجيه
-        </p>
-      </section>
-      <section id="product" class="product">
-        <h2>المنتجات</h2>
-        <div class="games">
-          <h3>الالعاب</h3>
-          <div class="girl">
-            <figure class="girl2">
-              <img src="مجموعة-أدوات-مكياج-للبنات.jpg" width="250px" />
-              <figcaption>العاب البنات</figcaption>
-              <p>
-                هذا القسم تجدون فيه الالعاب المخصصه للفتيات <br /><strong
-                  >للذهاب لهذا القسم اضغط <a href="#">هنا</a></strong
-                >
-              </p>
-            </figure>
-          </div>
-          <div class="girl">
-            <figure class="girl2">
-              <img src="R.jpg" width="250px" />
-              <figcaption>العاب الأطفال</figcaption>
-              <p>
-                هذا القسم تجدون فيه الالعاب المخصصه للاولاد <br /><strong
-                  >للذهاب لهذا القسم اضغط <a href="#">هنا</a></strong
-                >
-              </p>
-            </figure>
-          </div>
+      <div class="content">
+        <div class="h1">
+          <h1>
+            مكتبة <br />
+            الأصدقاء
+          </h1>
         </div>
-        <div class="school games">
-          <h3>المدرسة</h3>
-          <div class="girl">
-            <figure class="girl2">
-              <img src="R_2.png" width="250px" />
-              <figcaption>الادوات المدرسيه</figcaption>
-              <p>
-                هذا القسم تجدون فيه جميع الادوات المدرسيه<br /><strong
-                  >للذهاب لهذا القسم اضغط <a href="#">هنا</a></strong
-                >
-              </p>
-            </figure>
+        <div class="welcome">
+          <div class="title">
+            <h2>مرحبا</h2>
+            <p>يمكنكم التنقل بين الخدمات من خلال الشريط الجانبي</p>
           </div>
-          <div class="girl">
-            <figure class="girl2">
-              <img src="44110.png" width="250px" />
-              <figcaption>الكتب الخارجيه</figcaption>
-              <p>
-                هذا القسم تجدون فيه الكتب الخارجيه <br /><strong
-                  >للذهاب لهذا القسم اضغط <a href="#">هنا</a></strong
-                >
-              </p>
-            </figure>
-          </div>
+          <img src="./img/welcome.jpg" />
         </div>
-        <div class="printer games">
-          <h3>الطباعه</h3>
-          <div class="girl">
-            <figure class="girl2">
-              <img
-                src="png-clipart-paper-managed-print-services-printing-printer-office-supplies-printer-electronics-service.png"
-                width="250px"
-              />
-              <figcaption>الطباعه</figcaption>
-              <p>
-                هذا القسم تجدون فيه الالعاب المخصصه للفتيات <br /><strong
-                  >للذهاب لهذا القسم اضغط <a href="#">هنا</a></strong
-                >
-              </p>
-            </figure>
-          </div>
-        </div>
-      </section>
-      <section id="contact" class="contact">
-        <h2 class="title">للتواصل معنا</h2>
-        <div class="content">
-          <div class="card">
-            <div class="icon">
-              <a href="#"><i class="fa-solid fa-phone"></i></a>
+        <div id="prod" class="product">
+          <h3>المنتجات</h3>
+          <div class="cards">
+            <div class="games">
+              <figure>
+                <img src="./img/OIP_3.jpg" />
+                <figcaption>الألعاب</figcaption>
+                <p>
+                  يمكنكم الذهاب لقسم الألعاب بالضغط
+                  <strong><a href="#">هنا</a></strong>
+                </p>
+              </figure>
             </div>
-            <div class="info">
-              <h3>الهاتف</h3>
-              <p id="ph">01022277153</p>
+            <div class="games">
+              <figure>
+                <img src="./img/R.jpg" />
+                <figcaption>المدرسة</figcaption>
+                <p>
+                  يمكنكم الذهاب لقسم المدرسة بالضغط
+                  <strong><a href="#">هنا</a></strong>
+                </p>
+              </figure>
             </div>
-          </div>
-          <div class="card">
-            <div class="icon">
-              <a href="#"><i class="fa-solid fa-envelope"></i></a>
-            </div>
-            <div class="info">
-              <h3>البريد الالكتروني</h3>
-              <p>..</p>
+            <div class="games">
+              <figure>
+                <img src="./img/R_2.jpg" style="width: 90px; right: 37%" />
+                <figcaption>الطباعه</figcaption>
+                <p>
+                  يمكنكم الذهاب لقسم الطباعه بالضغط
+                  <strong><a href="#">هنا</a></strong>
+                </p>
+              </figure>
             </div>
           </div>
         </div>
-      </section>
+                <div id="cont" class="product">
+          <h3>التواصل</h3>
+          <div class="cards">
+            <div class="games">
+              <figure>
+                <i class="fa-solid fa-phone" ></i>
+                <figcaption >الهاتف</figcaption>
+                <p>01022277153</p>
+              </figure>
+            </div>
+                        <div class="games">
+              <figure>
+                <i class="fa-solid fa-envelope"></i>
+                <figcaption >البريد الالكتروني</figcaption>
+                <p>ahmedyasser33843@gmail.com</p>
+              </figure>
+            </div>
+      </div>
     </div>
-    <footer>
-        <h4>العنوان : <br>  مركز منيا القمح/ الصنافين</h4>
-     <i class="fa-brands fa-facebook"></i>
-    </footer>
+    <div class="h1">
+          <h2>نتمني لكم يوما سعيدا</h2>
+        </div>
   </body>
 </html>
