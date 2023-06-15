@@ -95,14 +95,14 @@ flex-direction: row;
     background-color: #cec3c3;
 }
 @media (max-width:420px){
-    .sidebar h2::before, .sidebar h2::after{
+    .sidebar h2::before, .sidebar h2::after, .sidebar h2{
         display: none;
     }
     .sidebar ul li a span{
         display: none;
     }
     .sidebar{
-        width: 65px;
+        width: 40px;
     }
     .sidebar h2{
         font-size: 17px;
@@ -132,6 +132,9 @@ flex-direction: row;
 @media (max-width:420px){
     .h1 h1{
         font-size: 40px;
+    }
+    .content{
+        width: 90%;
     }
 }
 .welcome{
