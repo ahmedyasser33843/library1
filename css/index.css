@@ -121,7 +121,7 @@ header ul li a:hover,
     bottom: -10px;
 }
 .main h1{
-    font-size: 20px;
+    font-size: 10px;
     color: white;
     transform: translatey(-90px);
 }
@@ -207,3 +207,72 @@ header ul li a:hover,
     top: 17%;
 }
 /* end content */
+.pageg{
+    background-color: (rgb(73, 2, 64));
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+/* start header */
+
+/* end header */
+/* start content */
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.girls{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    gap: 9px;
+    margin-bottom: 20px;
+    background-color: #888;
+    box-shadow: 0 0 15px;
+    color: #000;
+}
+.girls h2{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    background-color: #eceaea;
+    margin: 0;
+    padding: 15px;
+    border-radius: 20px;
+}
+.girls figure{
+    width: 85%;
+    height: fit-content;
+    background-color: #fff;
+    margin: 0;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 6px;
+}
+.girls figure img{
+    width: 70%;
+    border-radius: 15px;
+}
+.girls figure figcaption{
+    text-align: center;
+    font-size: 20px;
+    padding: 7px;
+}
+.girls figure p{
+    margin: 0;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+/* end content */
+/* footer */
